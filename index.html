@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Lua Boutique</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Cinzel|Libre+Barcode+39+Text" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.0/css/bootstrap.min.css" integrity="sha384-PDle/QlgIONtM1aqA2Qemk5gPOE7wFq8+Em+G/hmo5Iq0CCmYZLv3fVRDJ4MMwEA" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.0/js/bootstrap.min.js" integrity="sha384-7aThvCh9TypR7fIc2HV4O/nFMVCBwyIUKL8XCtKE+8xgCgl/PQGuFsvShjr74PBp" crossorigin="anonymous"></script>
@@ -15,13 +16,21 @@
             width: 100%; 
             background-color: rgb(44, 48, 56); 
         }
+
+        .barcode-text { 
+            font-family: 'Libre Barcode 39 Text', cursive;
+        }
+
+        .title-text {
+            font-family: 'Cinzel', serif;
+        }
     </style>
 </head>
 <body>
 <div class="">  
     <nav class="navbar navbar-expand-lg navbar-dark bg-transparent">
         <a class="navbar-brand" href="#"><img src="images/logo2.png" width="75" height="75" class="rounded-circle"></a>
-        <span class="display-4 d-none d-lg-inline text-light"> Lua Boutique</span>
+        <span class="title-text display-4 d-none d-lg-inline text-light"> Lua Boutique</span>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -90,7 +99,7 @@
                     <i class="fab fa-twitter-square fa-2x"></i>
                     <i class="fab fa-snapchat-square fa-2x"></i>
                     <i class="far fa-envelope fa-2x"></i>
-                    <p>Lua Boutique &copy 2019</p>
+                    <p class=" barcode-text text-center">Lua Boutique</p>
 
             </div>
         </div>
