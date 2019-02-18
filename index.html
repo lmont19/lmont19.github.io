@@ -3,108 +3,78 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Lua Boutique</title>
+    <title>Luis Montanez</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="https://fonts.googleapis.com/css?family=Cinzel|Libre+Barcode+39+Text" rel="stylesheet">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.0/css/bootstrap.min.css" integrity="sha384-PDle/QlgIONtM1aqA2Qemk5gPOE7wFq8+Em+G/hmo5Iq0CCmYZLv3fVRDJ4MMwEA" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.0/js/bootstrap.min.js" integrity="sha384-7aThvCh9TypR7fIc2HV4O/nFMVCBwyIUKL8XCtKE+8xgCgl/PQGuFsvShjr74PBp" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-  <style>
-        html, body { 
-            height: 100%; 
-            width: 100%; 
-            background-color: rgb(44, 48, 56); 
-        }
-
-        .barcode-text { 
-            font-family: 'Libre Barcode 39 Text', cursive;
-        }
-
-        .title-text {
-            font-family: 'Cinzel', serif;
-        }
-    </style>
+    <link rel="stylesheet" type="text/css" media="screen" href="portfolio.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="bootstrap-4.3.1-dist/css/bootstrap.min.css">
+    <script src="jQuery/jquery-3.3.1.min.js"></script>
+    <script src="masonry/masonry.pkgd.min.js"></script>
+    <script src="bootstrap-4.3.1-dist/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 </head>
 <body>
-<div class="">  
-    <nav class="navbar navbar-expand-lg navbar-dark bg-transparent">
-        <a class="navbar-brand" href="#"><img src="images/logo2.png" width="75" height="75" class="rounded-circle"></a>
-        <span class="title-text display-4 d-none d-sm-inline text-light"> Lua Boutique</span>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse justify-content-end title-text" id="navbarNavDropdown">
-            <ul class="navbar-nav">
-                <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Shop
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        <a class="dropdown-item" href="#">Tops</a>
-                        <a class="dropdown-item" href="#">Bottoms</a>
-                        <a class="dropdown-item" href="#">Accesories</a>
-                        </div>
-                    </li>
-                <li class="nav-item">
-                    <a class="nav-link text-light" href="#">Contact Me</a>
-                </li>
-            </ul>
-        </div>
-    </nav>   
-    <div class="container">
-        <div class="row flex-column flex-md-row">
-            <div class="col mb-2">
-                <div class="card">
-                    <img src="images/angie.jpg" class="card-img-top" >
-                    <div class="card-body">
-                        <h5 class="card-title">Tops</h5>
-                        <p class="card-text">Entra aqui para ver nuestra coleccion de Tops!</p>
-                        <a href="#" class="btn btn-light">Tops</a>
+    <div class="">
+        <nav class="navbar navbar-dark bg-dark">
+            <a class="navbar-brand" href="#">
+                <i class="fas fa-camera-retro"></i> Luis Montanez
+            </a>
+
+            <div class="dropdown">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    About Me
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <a class="dropdown-item" href="#">Instagram</a>
+                    <a class="dropdown-item" href="#">Facebook</a>
                     </div>
                 </div>
-            </div> 
+        </nav>
+    </div>  
 
-            <div class="col mb-2">
-                    <div class="card">
-                        <img src="images/angie3.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Bottoms</h5>
-                            <p class="card-text">Entra aqui para ver nuestra coleccion de Bottoms!</p>
-                            <a href="#" class="btn btn-light">Bottoms</a>
-                        </div>
-                    </div>
-                </div> 
-
-                <div class="col mb-2">
-                        <div class="card">
-                            <img src="images/angie2.jpg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">Accesorios</h5>
-                                <p class="card-text">Entra aqui para ver nuestra coleccion de Accesorios!</p>
-                                <a href="#" class="btn btn-light">Accesorios</a>
-                            </div>
-                        </div>
-                    </div> 
-
+    <div>
+        <div class="container">
+            <div class="row">
+                <div class="col vh-100 d-flex align-items-center justify-content-center">
+                    <h1>I am a <span id="changingText">Photographer</span></h1>
+                </div>
+            </div>
         </div>
     </div>
 
-
-    <div class="container d-flex justify-content-center">
-        <div class="row ">
-            <div class="col text-light mt-3">
-                    <i class="fab fa-facebook-square fa-2x"></i>
-                    <i class="fab fa-instagram fa-2x"></i>
-                    <i class="fab fa-twitter-square fa-2x"></i>
-                    <i class="fab fa-snapchat-square fa-2x"></i>
-                    <i class="far fa-envelope fa-2x"></i>
-                    <p class=" barcode-text text-center">Lua Boutique</p>
-
+    <div id="myGallery">
+        <div class="container mb-2">
+            <div class="row">
+                <div class="col text-center">
+                    <img src="img/cigar.jpg" alt="" class="text-center w-75">
+                </div>
+                <div class="col text-center">
+                    <img src="img/me1.jpg" alt="" class="w-75">
+                </div>
             </div>
         </div>
 
-    </div>
-</div>  
+        <div class="container mb-2">
+            <div class="row">
+                <div class="col text-center">
+                    <img src="img/pizza.jpg" alt="" class="text-center w-75">
+                </div>
+                <div class="col text-center">
+                    <img src="img/paolajoni.jpg" alt="" class="w-75">
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col text-center">
+                    <img src="img/alley.jpg" alt="" class="text-center w-75">
+                </div>
+                <div class="col text-center">
+                    <img src="img/paola1.jpg" alt="" class="w-75">
+                </div>
+            </div>
+        </div>
+    </div>   
+    <script src="portfolio.js"></script>
 </body>
-</html>
+</html> 

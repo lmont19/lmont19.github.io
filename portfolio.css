@@ -1,0 +1,7 @@
+h1 { 
+    text-align: center;
+}
+
+#myGallery { 
+    background-image: radial-gradient(circle, #676a6f, #4c5154, #353a3a, #202322, #0a0b09);
+}
