@@ -1,24 +1,17 @@
-var changingText = document.getElementById('changingText');
-var web = "Web Developer";
-var vet = "Veteran";
-var pic = "Photographer";
+var textArr = ['Web Developer', 'Fitness Enthusiast', 'Photographer', 'Self Learner' ]
 
-function changeWeb() { 
-    changingText.textContent = web; 
-}; 
 
-function changeVet() { 
-    changingText.textContent = vet; 
-}; 
-
-function changePic() { 
-    changingText.textContent = pic; 
-};
-
-function changeSpan() { 
-    setInterval(changeWeb, 2000); 
-    setInterval(changeVet, 4000); 
-    setInterval(changePic, 6000); 
-} ; 
-
-changeSpan(); 
+var index = 0;
+setInterval(function(){        
+$("#changeText").animate({
+opacity:0
+},function()
+{
+   if(textArr.length > index) {
+   $(this).text(textArr[index]).animate({opacity:1})
+   index++; 
+   }
+   else
+   index = 0;
+});
+},2000);
