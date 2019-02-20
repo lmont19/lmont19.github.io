@@ -2,12 +2,15 @@ body{
     margin: 0;
 }
 
-h1 { 
-    text-align: center;
+.marker-text{ 
+  font-family: 'Permanent Marker', cursive;
+  letter-spacing: 2px; 
+  font-size: 2.0rem; 
 }
 
-#myGallery { 
-    background-image: radial-gradient(circle, #676a6f, #4c5154, #353a3a, #202322, #0a0b09);
+h1 { 
+    text-align: center;
+    font-family: 'Permanent Marker', cursive;
 }
 
 .grid {
