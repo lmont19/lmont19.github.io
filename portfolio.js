@@ -24,3 +24,7 @@ var $grid = $('.grid').masonry({
  $grid.imagesLoaded().progress( function() {
    $grid.masonry();
  });  
+
+ particlesJS.load('particles-js', 'particles.json', function() {
+  console.log('particles.js config loaded');
+});
