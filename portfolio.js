@@ -1,3 +1,5 @@
+$(document).ready(function(){
+
 var textArr = ['Web Developer', 'Fitness Enthusiast', 'Photographer', 'Self Learner', 'Web Developer', 'Fitness Enthusiast', 'Photographer', 'Self Learner' ]
 var index = 0;
 setInterval(function(){        
@@ -24,3 +26,5 @@ var $grid = $('.grid').masonry({
  $grid.imagesLoaded().progress( function() {
    $grid.masonry();
  });  
+
+});
