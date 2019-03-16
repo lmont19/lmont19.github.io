@@ -1,43 +1,25 @@
-body{
-    margin: 0;
+
+
+#landing{ 
+  height: 100vh; 
+  background: url('img/background.jpg') no-repeat center center fixed; 
+  background-size: cover; 
 }
 
-.marker-text{ 
-  font-family: 'Permanent Marker', cursive;
-  letter-spacing: 2px; 
+.nav-item { 
+  font-size: 1.2rem; 
+  font-weight: 100; 
+  text-transform: uppercase; 
+  font-family: 'Cormorant Garamond', serif;
+}
+
+#app { 
+  color: white; 
+  text-align: center; 
+  position: relative; 
+  top: 750px; 
+  font-family: 'Cormorant Garamond', serif;
   font-size: 2.0rem; 
+  font-weight: 100; 
 }
 
-h1 { 
-    text-align: center;
-    font-family: 'Permanent Marker', cursive;
-}
-
-.grid {
-    background: #DDD;
-    overflow: hidden;
-  }
-  
-  /* clear fix */
-  .grid:after {
-    content: '';
-    display: block;
-    clear: both;
-  }
-  
-  /* ---- .grid-item ---- */
-  
-  .grid-sizer,
-  .grid-item {
-    width: 33.333%;
-  }
-  
-  .grid-item {
-    float: left;
-  }
-  
-  .grid-item img {
-    display: block;
-    max-width: 100%;
-  }
-  

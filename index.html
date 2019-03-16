@@ -7,73 +7,50 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="portfolio.css">
     <link rel="stylesheet" type="text/css" media="screen" href="bootstrap-4.3.1-dist/css/bootstrap.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Libre+Barcode+39+Text|Permanent+Marker" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond:300" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 </head>
 <body>
-    <div class="">
-        <nav class="navbar navbar-dark bg-dark">
-            <a class="navbar-brand" href="#">
-                <span class="marker-text">Luis Montanez</span>
-            </a>
-
-            <div class="dropdown ">
-                    <button class="btn btn-secondary dropdown-toggle d-none d-sm-block" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    About Me
-                    </button>
-                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                    <a class="dropdown-item" href="#">Instagram</a>
-                    <a class="dropdown-item" href="#">Facebook</a>
-                    </div>
-                </div>
-        </nav>
-    </div>  
-
-
-    <div>
-        <div class="container">
-            <div class="row col vh-100 d-flex align-items-center justify-content-center">
-                <div class="vh-100 d-flex align-items-center justify-content-center" id="">
-                    <h1>I am a <span id="changeText">Photographer</span></h1>
-                </div>
+    <div id="landing">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-transparent">
+            <a class="navbar-brand" href="#"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Resume</a>
+                    </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About Me</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Blog</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Contact Me</a>
+                </li>
+                </ul>
             </div>
-        </div>
-    </div>
+        </nav>
 
-    <div class="grid">
-        <div class="grid-sizer"></div>
-        <div class="grid-item">
-            <img src="https://farm8.staticflickr.com/7809/47086487482_65997ed845_k.jpg"" alt="" >
-        </div>
-        <div class="grid-item">
-        <img src="https://farm8.staticflickr.com/7826/47138748411_3c8d606460_k.jpg" alt="" class="src">
-        </div>
-        <div class="grid-item">
-            <img src="https://farm8.staticflickr.com/7861/47138764311_bd58db2ab1_k.jpg" alt="" class="src">
-        </div>
-        <div class="grid-item">
-            <img src="https://farm8.staticflickr.com/7896/46224505455_c018560e1f_k.jpg" alt="" class="src">
-        </div>
-        <div class="grid-item">
-            <img src="img/pizza.jpg" alt="" class="src">
-        </div>
-        <div class="grid-item">
-            <img src="img/paolajoni.jpg" alt="" class="src">
-        </div>
-        <div class="grid-item">
-            <img src="img/vino.jpg" alt="">
-        </div>
-        <div class="grid-item">
-            <img src="img/sunset.jpg" alt="">
-        </div>
-        <div class="grid-item">
-            <img src="img/america.jpg" alt="">
-        </div>
-    </div>
+        <div id="app"></div>
+
+    
         
+    </div>
+    
     <script src="jQuery/jquery-3.3.1.min.js"></script>
-    <script src="masonry/masonry.pkgd.min.js"></script>
     <script src="bootstrap-4.3.1-dist/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/typewriter-effect/dist/core.js"></script>
     <script src="portfolio.js"></script>
     </script>
 </body>
