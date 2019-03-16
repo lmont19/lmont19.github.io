@@ -20,9 +20,8 @@ body {
   color: white; 
   text-align: center; 
   position: absolute; 
-  left: 40%; 
   bottom: 0; 
-  margin: 0 auto;
+  width: 100%; 
   font-family: 'Thasadith', sans-serif;
   font-size: 2.0rem; 
   font-weight: 100; 
