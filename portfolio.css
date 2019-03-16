@@ -1,5 +1,8 @@
 
-
+body {
+  margin: 0; 
+  overflow: hidden;
+}
 #landing{ 
   height: 100vh; 
   background: url('img/background.jpg') no-repeat center center fixed; 
