@@ -23,6 +23,10 @@ body {
   font-family: "Caveat", cursive;
 }
 
+#navbar a:hover {
+  transform: scale(2);
+}
+
 #navbar img {
   height: auto;
   width: 40%;
