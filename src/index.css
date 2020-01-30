@@ -40,12 +40,21 @@ body {
   position: relative;
   left: 25%;
   overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+#info-div {
+  text-align: center;
+  width: 50%;
+  line-height: 30px;
+  margin: auto;
 }
 
 #social-media {
-  height: 100%;
-  position: relative;
+  width: 100%;
   letter-spacing: 5px;
   text-align: center;
   color: black;
+  margin: 10px;
 }
